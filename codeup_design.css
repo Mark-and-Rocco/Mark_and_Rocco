@@ -5,8 +5,6 @@ body {
     background-color: lightgrey;
 }
 section {
-    display: flex;
-    flex-direction: row;
 }
 h1 {
     text-align: center;
@@ -17,16 +15,24 @@ h1 {
     max-height: 15em;
     width: 100%;
     background-color: white;
-
 }
 .navbar-img {
     height: 30vw;
     min-width: 105px;
     margin: auto;
-
 }
-.xsmall-list {
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.row{
     list-style: none;
-    align-content: center;
+    padding: 0;
+    display: inline-flex;
+    justify-content: space-between;
 }
-
+.col-sm-3 {
+    text-decoration: none;
+    color: black;
+    display: flex;
+}

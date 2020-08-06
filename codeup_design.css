@@ -94,6 +94,17 @@ a {
     /*margin-right: auto;*/
     font-family: 'Anton', sans-serif;
 }
+.circle2 {
+    border: 7px solid #F0F0F0;
+    min-height: 7rem;
+    min-width: 7rem;
+    border-radius: 5rem;
+    color: #F0F0F0;
+    font-size: 1rem;
+    /*line-height: 90px;*/
+    /*margin-right: auto;*/
+    font-family: 'Anton', sans-serif;
+}
 .icon1 {
     background-color: #E6563B;
 }

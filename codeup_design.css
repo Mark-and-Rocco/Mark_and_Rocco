@@ -8,21 +8,29 @@ h1 {
     text-align: center;
     font-size: 3rem;
     margin-top: 3rem;
+    font-family: 'Anton', sans-serif;
 }
 h3 {
     text-align: center;
+    font-size: 1.6rem;
+    font-family: 'Anton', sans-serif;
+}
+h6 {
+    font-family: 'Abel', sans-serif;
 }
 a {
     text-decoration: none;
     color: black;
     display: flex;
     font-size: 4vw;
+    font-family: 'Abel', sans-serif;
 }
  a:hover {
     text-decoration: none;
 }
  h5 {
      text-align: center;
+     font-family: 'Abel', sans-serif;
  }
  img {
      width: 100%;
@@ -39,34 +47,52 @@ a {
 }
 #icon {
     list-style: none;
-    justify-content: space-evenly;
+    /*justify-content: space-evenly;*/
+}
+.head {
+    font-family: 'Abel', sans-serif;
 }
 .xs-nav {
-    display: flex;
-    margin-top: 100px;
-    max-height: 15em;
-    width: 100%;
-    background-color: #F0F0F0;
+    /*display: flex;*/
+    /*margin-top: 100px;*/
+    /*max-height: 75px;*/
+    /*width: 100%;*/
+    background-image:
+            linear-gradient(
+                    #E6E6E6,
+                    #E6E6E6 25%,
+                    #FFFFFF 25%,
+                    #FFFFFF 75%,
+                    #E6E6E6 75%
+            )
 }
 .navbar-img {
-    height: 30vw;
-    min-width: 105px;
-    margin: auto;
+    height: 210px;
+    width: 210px;
+    /*margin: auto;*/
+    border: none;
+    /*position: relative;*/
+    /*top: -5.3rem;*/
+}
+.navbar-img2 {
+    height: 105px;
+    width: 105px;
+    border: none;
 }
 .container {
     display: flex;
     justify-content: space-evenly;
 }
 .circle{
-    border: 5px solid #F0F0F0;
-    min-height: 125px;
-    min-width: 125px;
-    border-radius: 100px;
+    border: 15px solid #F0F0F0;
+    min-height: 15rem;
+    min-width: 15rem;
+    border-radius: 15rem;
     color: #F0F0F0;
-    font-size: 1.5rem;
-    text-align: center;
-    line-height: 90px;
-    margin-right: auto;
+    font-size: 3rem;
+    /*line-height: 90px;*/
+    /*margin-right: auto;*/
+    font-family: 'Anton', sans-serif;
 }
 .icon1 {
     background-color: #E6563B;
@@ -82,7 +108,7 @@ a {
 }
 #xs-icon {
     list-style: none;
-    justify-content: right;
+    /*justify-content: right;*/
 }
 .xs-circle {
     border-radius: 30px;

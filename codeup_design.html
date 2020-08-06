@@ -6,22 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
           integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="codeup_design.css">
 </head>
 <body>
-<nav class="xs-nav">
-    <img src="img/logo.png" alt="Logo" class="navbar-img">
-</nav>
-<h1>Codeup Design</h1>
-<section class="container">
-    <ul id="sec-list" class="row tm-5">
-        <li><a class="col-xs-3 m-3" href="#">Services</a></li>
-        <li><a class="col-xs-3 m-3" href="#">Work</a></li>
-        <li><a class="col-xs-3 m-3" href="#">Blog</a></li>
-        <li><a class="col-xs-3 m-3" href="#">Contact</a></li>
+<!----------------------Start of Extra Small View Navbar/header----------------------------------------------------->
+<section class="container-fluid d-flex flex-column p-0 d-block d-sm-none">
+    <nav class="xs-nav mt-3 text-center">
+        <img src="img/logo.png" alt="Logo" class="navbar-img">
+    </nav>
+    <h1 class="head">Codeup Design</h1>
+    <ul id="sec-list" class="row d-flex justify-content-around">
+        <li><a class="col-xs-3" href="#">Services</a></li>
+        <li><a class="col-xs-3" href="#">Work</a></li>
+        <li><a class="col-xs-3" href="#">Blog</a></li>
+        <li><a class="col-xs-3" href="#">Contact</a></li>
     </ul>
 </section>
+<!------------------------End of Extra Small View Navbar/header------------------------------------------------------>
+<!------------------------Start of Small View Navbar/header---------------------------------------------------------->
+<section class="container-fluid d-flex flex-column p-0">
+    <nav id="sec-list" class="row d-flex justify-content-around xs-nav align-items-center">
+        <a class="col-xs-3" href="#">Services</a>
+        <a class="col-xs-3" href="#">Work</a>
+        <div class="mt-3 text-center">
+            <img src="img/logo.png" alt="Logo" class="navbar-img2">
+        </div>
+        <a class="col-xs-3" href="#">Blog</a>
+        <a class="col-xs-3" href="#">Contact</a>
+    </nav>
+    <h1 class="head">Codeup Design</h1>
+</section>
+
 <main>
     <h1>Visual Design & Web Development</h1>
 
@@ -29,20 +46,20 @@
     <h3>From Parks City, Utah</h3></p>
 </main>
 <article class="container">
-    <ul id="icon" class="row">
-        <li class="circle icon1">Design</li>
-        <li class="circle icon2">Develop</li>
-        <li class="circle icon3">Host</li>
-        <li class="circle icon4">Support</li>
+    <ul id="icon" class="row p-0 d-flex justify-content-around">
+        <li class="circle2 icon1 d-flex align-items-center justify-content-center mb-3">Design</li>
+        <li class="circle2 icon2 d-flex align-items-center justify-content-center mb-3">Develop</li>
+        <li class="circle2 icon3 d-flex align-items-center justify-content-center mb-3">Host</li>
+        <li class="circle2 icon4 d-flex align-items-center justify-content-center mb-3">Support</li>
     </ul>
 </article>
 <figure>
-    <h5>Selected Work</h5>
+    <h5 class="mt-5 pt-4 mb-2">Selected Work</h5>
     <div>
         <img src="img/apple-ipad.jpg" alt="Ipad with apples">
-        <footer>
+        <footer class="d-flex justify-content-between px-2">
             <h6>Featured Project</h6>
-            <ul id="xs-icon" class="row">
+            <ul id="xs-icon" class="row p-0 m-0">
                 <li class="xs-circle xs-icon1">D</li>
                 <li class="xs-circle xs-icon2">D</li>
                 <li class="xs-circle xs-icon3">H</li>
@@ -52,9 +69,9 @@
     </div>
     <div>
         <img src="img/macbook.jpg" alt="Macbook">
-        <footer>
+        <footer class="d-flex justify-content-between px-2">
             <h6>Featured Project</h6>
-            <ul id="xs-icon" class="row">
+            <ul id="xs-icon" class="row p-0 m-0">
                 <li class="xs-circle xs-icon1">D</li>
                 <li class="xs-circle xs-icon2">D</li>
                 <li class="xs-circle xs-icon3">H</li>
@@ -64,9 +81,9 @@
     </div>
     <div>
         <img src="img/man.jpg" alt="Man">
-        <footer>
+        <footer class="d-flex justify-content-between px-2">
             <h6>Featured Project</h6>
-            <ul id="xs-icon" class="row">
+            <ul id="xs-icon" class="row p-0 m-0">
                 <li class="xs-circle xs-icon1">D</li>
                 <li class="xs-circle xs-icon2">D</li>
                 <li class="xs-circle xs-icon3">H</li>
@@ -76,9 +93,9 @@
     </div>
     <div>
         <img src="img/security.jpg" alt="Security">
-        <footer>
+        <footer class="d-flex justify-content-between px-2">
             <h6>Featured Project</h6>
-            <ul id="xs-icon" class="row">
+            <ul id="xs-icon" class="row p-0 m-0">
                 <li class="xs-circle xs-icon1">D</li>
                 <li class="xs-circle xs-icon2">D</li>
                 <li class="xs-circle xs-icon3">H</li>

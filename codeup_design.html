@@ -4,14 +4,13 @@
     <meta charset="utf-8"/>
     <meta http-equiv="x-ua-compatible" content="ie=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="codeup_design.css">
 </head>
 <body>
-<!----------------------Start of Extra Small View Navbar/header----------------------------------------------------->
+<!----------------------Start of Extra Small View Navbar/header---------------------Start Xs -Nav------------------------------->
 <section class="container-fluid d-flex flex-column p-0 d-block d-sm-none">
     <nav class="xs-nav mt-3 text-center">
         <img src="img/logo.png" alt="Logo" class="navbar-img">
@@ -24,9 +23,10 @@
         <li><a class="col-xs-3" href="#">Contact</a></li>
     </ul>
 </section>
-<!------------------------End of Extra Small View Navbar/header------------------------------------------------------>
-<!------------------------Start of Small View Navbar/header---------------------------------------------------------->
-<section class="container-fluid d-flex flex-column p-0">
+<!------------------------End of Extra Small View Navbar/header-----------------------End-Xs-Nav----------------------------->
+
+<!------------------------Start of Small View Navbar/header---------------------------Start Small-Nav-------------------------->
+<section class="container-fluid d-flex flex-column p-0 d-none d-sm-block">
     <nav id="sec-list" class="row d-flex justify-content-around xs-nav align-items-center">
         <a class="col-xs-3" href="#">Services</a>
         <a class="col-xs-3" href="#">Work</a>
@@ -36,16 +36,15 @@
         <a class="col-xs-3" href="#">Blog</a>
         <a class="col-xs-3" href="#">Contact</a>
     </nav>
-    <h1 class="head">Codeup Design</h1>
+    <h1 class="head mt-3 mb-3">Codeup Design</h1>
 </section>
-
+<!------------------------End Small view Navbar/header--------------------------End Small-Nav--------------------------------->
 <main>
     <h1>Visual Design & Web Development</h1>
 
-    <p>
-    <h3>From Parks City, Utah</h3></p>
+    <p><h3 class="mb-5 pt-3">From Parks City, Utah</h3></p>
 </main>
-<!-----------------Start Extra Small view Circle ------------------------------------------------------------------->
+<!-----------------Start Extra Small view Circle -------------------------------Start--xs--Circles-------------------------------->
 <article class="container d-block d-sm-none">
     <ul id="icon" class="row p-0 d-flex justify-content-around">
         <li class="circle icon1 d-flex align-items-center justify-content-center mb-3">Design</li>
@@ -54,7 +53,9 @@
         <li class="circle icon4 d-flex align-items-center justify-content-center mb-3">Support</li>
     </ul>
 </article>
-<!----------------End Extra Small view circle----------------------------------------------------------------------->
+<!----------------End Extra Small view circle------------------------------------End----xs----Circles--------------------------->
+
+<!----------------Start Small View Circles---------------------------------------Start--Small---Circles----------------->
 <article class="container">
     <ul id="icon" class="row p-0 d-flex justify-content-between mb-2">
         <li class="circle2 icon1 d-flex align-items-center justify-content-center">Design</li>
@@ -64,7 +65,11 @@
     </ul>
 </article>
 <hr class="m-0 d-none d-sm-block">
-<figure>
+
+<!-------------End Small View Circles---------------------------------------------End--Small--Circles----------------------->
+
+<!-------------Start Extra Small Images--------------------------------------------Start Xsmall--Circles------------------->
+<figure class="d-block d-sm-none">
     <h5 class="mt-5 pt-4 mb-2">Selected Work</h5>
     <div>
         <img src="img/apple-ipad.jpg" alt="Ipad with apples">
@@ -115,6 +120,66 @@
         </footer>
     </div>
 </figure>
+
+<!------------------------End Extra Small Images------------------------------------End Xsmall Img ---------------------------->
+
+<!------------------------Start Small Images----------------------------------------Start Small Img------------------------>
+
+<figure class="container p-0 m-0 d-block d-sm-block d-md-none">
+    <h5 class="mt-5 pt-4 mb-2">Selected Work</h5>
+    <div class="row d-flex m-auto">
+        <div class="col-sm-6 p-0">
+            <img src="img/apple-ipad.jpg" alt="Ipad with apples">
+            <footer class="d-flex justify-content-between px-2">
+                <h6>Featured Project</h6>
+                <ul id="xs-icon" class="row p-0 m-0">
+                    <li class="xs-circle xs-icon1">D</li>
+                    <li class="xs-circle xs-icon2">D</li>
+                    <li class="xs-circle xs-icon3">H</li>
+                    <li class="xs-circle xs-icon4">S</li>
+                </ul>
+            </footer>
+        </div>
+        <div class="col-sm-6 p-0">
+            <img src="img/macbook.jpg" alt="Macbook">
+            <footer class="d-flex justify-content-between px-2">
+                <h6>Featured Project</h6>
+                <ul id="xs-icon" class="row p-0 m-0">
+                    <li class="xs-circle xs-icon1">D</li>
+                    <li class="xs-circle xs-icon2">D</li>
+                    <li class="xs-circle xs-icon3">H</li>
+                    <li class="xs-circle xs-icon4">S</li>
+                </ul>
+            </footer>
+        </div>
+        <div class="col-sm-6 p-0">
+            <img src="img/man.jpg" alt="Man">
+            <footer class="d-flex justify-content-between px-2">
+                <h6>Featured Project</h6>
+                <ul id="xs-icon" class="row p-0 m-0">
+                    <li class="xs-circle xs-icon1">D</li>
+                    <li class="xs-circle xs-icon2">D</li>
+                    <li class="xs-circle xs-icon3">H</li>
+                    <li class="xs-circle xs-icon4">S</li>
+                </ul>
+            </footer>
+        </div>
+        <div class="col-sm-6 p-0">
+            <img src="img/security.jpg" alt="Security">
+            <footer class="d-flex justify-content-between px-2">
+                <h6>Featured Project</h6>
+                <ul id="xs-icon" class="row p-0 m-0">
+                    <li class="xs-circle xs-icon1">D</li>
+                    <li class="xs-circle xs-icon2">D</li>
+                    <li class="xs-circle xs-icon3">H</li>
+                    <li class="xs-circle xs-icon4">S</li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+</figure>
+
+<!------------------------End Small Images------------------------------------------End Small Img----------------------------->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
